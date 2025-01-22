@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.QR-img {
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.input-label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.gen-btn, .download {
+  background-color: #6440dc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: background-color 0.3s;
+}
+
+.gen-btn:hover, .download:hover {
+  background-color: #431d65;
+}
+
+p {
+  color: #d9534f;
+  font-size: 16px;
+  font-weight: bold;
+}
