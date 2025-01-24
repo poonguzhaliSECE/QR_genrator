@@ -26,7 +26,7 @@ const App = () => {
       <h1>QR Code Gendrator</h1>
       {/* conditional renderring */}
       {load && <p>please wait</p>}
-      <img src={img}  className='QR-img'></img>
+      <img src={img}  className='QR-img' alt=''></img>
 
       <label className='input-label'>Data for QR-Code</label>
       <input type="text" id="data-input" placeholder='Enter data for Qr code' onChange={(e)=>setqrdata(e.target.value)}></input>
